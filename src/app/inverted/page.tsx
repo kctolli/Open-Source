@@ -19,10 +19,6 @@ export default function Home() {
           <List type="NPM Package" />
         </section>
       </main>
-      <footer className={s.footer}>
-        <br /><hr />
-        <p>&copy; {(new Date()).getFullYear()} - Kyle Tolliver</p>
-      </footer>
     </body>
   );
 }
