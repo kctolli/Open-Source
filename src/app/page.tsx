@@ -3,7 +3,7 @@ import s from "./page.module.css";
 
 export default function Home() {
   return (
-    <body>
+    <>
       <header className={s.header}>
         <h1>Open Source Projects</h1>
         <p>List of open-source projects I have contributed to.</p>
@@ -23,6 +23,6 @@ export default function Home() {
         <br /><hr />
         <p>&copy; {(new Date()).getFullYear()} - Kyle Tolliver</p>
       </footer>
-    </body>
+    </>
   );
 }
