@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@kctolli/parsecsv": "^1.1.1",
-    "@kctolli/rebuild-component": "^1.0.0",
+    "@kctolli/rebuild-component": "latest",
     "antd": "^5.14.2",
     "axios": "^1.6.7",
     "next": "14.1.0",
